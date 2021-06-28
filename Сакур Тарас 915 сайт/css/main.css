@@ -285,7 +285,7 @@ html {
   font-family: Mulish;
   font-style: normal;
   font-weight: 300;
-  font-size: 17px;
+  font-size: 20px;
   line-height: 30px;
   /* or 176% */
   color: #7D7987;
@@ -295,59 +295,6 @@ html {
 .world-2 {
   width: 30%;
   margin-right: 10%;
-}
-
-.about {
-  padding: 15% 13% 0 13%;
-}
-
-.fd {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.fd a {
-  color: #FB8F1D;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 17px;
-  line-height: 60px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: #FB8F1D;
-  mix-blend-mode: normal;
-}
-
-.fd a:hover {
-  text-decoration: none;
-}
-
-.destination {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.dest {
-  width: 22%;
-  margin-right: 2%;
-  margin-top: 2%;
-}
-
-.img-s {
-  width: 100%;
 }
 
 .guides {
@@ -400,19 +347,8 @@ html {
   font-style: normal;
   font-weight: bold;
   font-size: 150%;
-  line-height: 48px;
+  line-height: 50px;
   color: #000000;
-  mix-blend-mode: normal;
-}
-
-.founder-circle {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 48px;
-  /* identical to box height, or 267% */
-  color: rgba(0, 0, 0, 0.85);
   mix-blend-mode: normal;
 }
 
@@ -420,62 +356,7 @@ html {
   width: 50%;
 }
 
-.tr-stories {
-  padding: 15% 13% 0 13%;
-}
 
-.star {
-  margin-top: 10%;
-  margin-bottom: 5%;
-}
-
-.story {
-  margin-top: 5%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.p1 {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 19px;
-  line-height: 30px;
-  /* or 158% */
-  color: #000000;
-  mix-blend-mode: normal;
-}
-
-.p2 {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
-  line-height: 26px;
-  /* or 173% */
-  color: #7D7987;
-  mix-blend-mode: normal;
-}
-
-.stories {
-  width: 260px;
-}
-
-.read-more {
-  color: #FB8F1D;
-}
-
-.read-more:hover {
-  text-decoration: none;
-  color: #FB8F1D;
-}
 
 .footer {
   background: #F9F9FB;
@@ -489,8 +370,8 @@ html {
   font-family: Mulish;
   font-style: normal;
   font-weight: bold;
-  font-size: 19px;
-  line-height: 60px;
+  font-size: 25px;
+  line-height: 30px;
   /* identical to box height, or 316% */
   color: #000000;
   mix-blend-mode: normal;
@@ -511,9 +392,9 @@ html {
 .p22 {
   font-family: Mulish;
   font-style: normal;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 28px;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 40px;
   /* or 156% */
   color: #848484;
 }
@@ -573,4 +454,7 @@ html {
 
 .sociali {
   margin: 1%;
+}
+
+@media screen and (max-width: 575px) and (max-width: 380px){
 }
